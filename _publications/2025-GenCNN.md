@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-GenCNN
 excerpt: 'This paper is about the mapping optimization of overall DNN operators on dataflow architecture by optimizing NSGA-II algorithm.'
-date: 2015
+date: 2025-12-01
 venue: 'ACM Transactions on Architecture and Code Optimization'
 paperurl: 'To be Added'
 citation: 'Yudong Mu, Zhihua Fan, Wenming Li. (2025). &quot;Just Accepted by ACM TACO; <i>Journal 1</i>. 1(3).'
