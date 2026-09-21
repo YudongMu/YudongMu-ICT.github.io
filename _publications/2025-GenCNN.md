@@ -18,4 +18,3 @@ excerpt: "A partition-aware multi-objective framework that jointly optimizes tas
 GenCNN combines a fine-grained performance model with NSGA-II enhanced by multi-objective Bayesian optimization. It searches task partitioning and convolution parallelization jointly, then optimizes scheduling and routing to reduce data transfers.
 
 Compared with AutoTVM, GenCNN achieves up to **17.66×** faster compilation and **6.47×** faster execution.
-

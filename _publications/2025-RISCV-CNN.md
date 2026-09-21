@@ -16,4 +16,3 @@ excerpt: "A RISC-V extended infrastructure that improves CNN execution through p
 ---
 
 This work extends a RISC-V-based infrastructure for CNN workloads with pipelined execution and explicit data-dependence optimization, improving the efficiency of convolutional-network processing.
-
