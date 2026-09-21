@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+<p class="archive-intro">My research spans AI accelerator architecture, dataflow and CGRA mapping, and hardware/software co-design. My name is highlighted in each author list.</p>
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -23,12 +25,12 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-entry.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include publication-entry.html %}
   {% endfor %}
 {% endif %}
 
