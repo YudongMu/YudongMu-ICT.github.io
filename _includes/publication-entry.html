@@ -1,0 +1,39 @@
+{% include base_path %}
+
+<article class="publication-entry">
+  <h3 class="publication-entry__title">
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  </h3>
+
+  <p class="publication-entry__authors">{{ post.authors }}</p>
+
+  <div class="publication-entry__meta">
+    <span><em>{{ post.venue }}</em>{% if post.details %}, {{ post.details }}{% endif %}</span>
+    {% if post.badges %}
+      <span class="publication-entry__badges" aria-label="Publication classifications">
+        {% for badge in post.badges %}
+          <span class="pub-badge">{{ badge }}</span>
+        {% endfor %}
+      </span>
+    {% endif %}
+  </div>
+
+  {% if post.note %}
+    <p class="publication-entry__note">{{ post.note }}</p>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <p class="publication-entry__summary">{{ post.excerpt }}</p>
+  {% endif %}
+
+  {% if post.doi or post.paperurl %}
+    <div class="pub-links" aria-label="Publication links">
+      {% if post.doi %}
+        <a class="pub-link" href="https://doi.org/{{ post.doi }}">DOI</a>
+      {% endif %}
+      {% if post.paperurl %}
+        <a class="pub-link" href="{{ post.paperurl }}">Paper</a>
+      {% endif %}
+    </div>
+  {% endif %}
+</article>

@@ -9,12 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yudong Mu / Personal Homepage"
+title                    : "Yudong Mu"
 title_separator          : "-"
 name                     : &name "Yudong Mu"
-description              : &description "a Ph.D. student at ICT, CAS"
-url                      : https://yudongmu.github.io/YudongMu-ICT.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "Ph.D. candidate in computer architecture at ICT, CAS"
+url                      : "https://yudongmu.github.io"
+baseurl                  : "/YudongMu-ICT.github.io"
 repository               : "YudongMu/YudongMu-ICT.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,22 +23,22 @@ repository               : "YudongMu/YudongMu-ICT.github.io"
 author:
   # Biographic information
   avatar           : "YudongMu202504.png"
-  name             : "YudongMu"
-  pronouns         : "he/his"# example: "she/her"  
-  bio              : "Pure UCASer"
+  name             : "Yudong Mu"
+  pronouns         : "he/him"
+  bio              : "Ph.D. Candidate in Computer Architecture"
   location         : "Beijing, China"
-  employer         : "ICT"
-  uri              : # URL
-  email            : "muyudong19@mails.ucas.ac.cn" 
+  employer         : "ICT, Chinese Academy of Sciences"
+  uri              : "https://yudongmu.github.io/YudongMu-ICT.github.io/"
+  email            : "muyudong19@mails.ucas.ac.cn"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0005-9629-1184"
+  orcid            : "https://orcid.org/0009-0005-9629-1184"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/YudongMu"
+  github           : "YudongMu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
