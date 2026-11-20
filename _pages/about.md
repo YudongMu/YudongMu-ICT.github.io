@@ -17,7 +17,7 @@ My research explores efficient AI systems across **model analysis, compiler mapp
 
 ## News
 
-- In **November 2026**, our paper **HARP** was accepted to **HPCA 2027**. I am the sole first author. [Publication details]({{ '/publication/2027-harp/' | relative_url }})
+- In **November 2026**, our paper **HARP** was accepted to **HPCA 2027**. [Publication details]({{ '/publication/2027-harp/' | relative_url }})
 
 ## Research Interests
 
