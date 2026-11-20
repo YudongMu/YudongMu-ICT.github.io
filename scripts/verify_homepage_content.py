@@ -25,6 +25,8 @@ def verify_home() -> None:
     source = "_pages/about.md"
     text = read(source)
     for fragment in (
+        "HPCA 2027",
+        "/publication/2027-harp/",
         "Research Interests",
         "Selected Research Projects",
         "FDHA",
@@ -44,11 +46,13 @@ def verify_publications() -> None:
 
     publication_dir = ROOT / "_publications"
     records = sorted(publication_dir.glob("*.md"))
-    assert len(records) == 6, (
-        f"_publications must contain exactly six Markdown records; found {len(records)}"
+    assert len(records) == 7, (
+        f"_publications must contain exactly seven Markdown records; found {len(records)}"
     )
     combined = "\n".join(path.read_text(encoding="utf-8") for path in records)
     for fragment in (
+        "HARP: A Hierarchical Attention and Representation Sparsity Accelerator for Diffusion Transformers",
+        "HPCA 2027",
         "GenCNN",
         "面向 YOLO 神经网络的数据流架构优化研究",
         "FDHA",
