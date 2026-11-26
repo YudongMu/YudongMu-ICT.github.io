@@ -54,7 +54,7 @@ My research explores efficient AI systems across **model analysis, compiler mapp
 <div class="project-grid">
 
   <article class="project-card">
-    <div class="project-card__meta">Sole first author · HPCA 2027 · Accepted</div>
+    <div class="project-card__meta">HPCA 2027 · Accepted</div>
     <h3><a href="{{ '/publication/2027-harp/' | relative_url }}">HARP: Hierarchical Sparsity for Diffusion Transformers</a></h3>
     <p>Co-designed residual-compensated attention windowing, trajectory-aware PlaneClear, and a region-centric bit-interleaved accelerator to exploit inter-region attention sparsity and intra-region BF16 representation sparsity. Across six image and video DiTs, simulated HARP achieved geometric-mean speedups of <strong>12.24×</strong> over measured NVIDIA H100 performance and <strong>3.21×</strong> over DSTAR, with at most <strong>2.32%</strong> degradation in the primary quality metric.</p>
   </article>
